@@ -18,7 +18,7 @@ int main() {
     int ano, dia_semana_inicio;
 
     // Solicitar ao usuário o dia da semana em que 1º de janeiro cai e se o ano é bissexto ou não
-    printf("Digite o dia da semana em que 1º de janeiro cai (0 - Domingo, 1 - Segunda, 2 - terça, ..., 6 - Sábado): ");
+    printf("Digite o dia da semana em que 1º de janeiro cai (0 - Domingo, 1 - Segunda, 2 - terça, 3 - quarta, 4 - quinta, ..., 6 - Sábado): ");
     scanf("%d", &dia_semana_inicio);
 
     printf("Digite o ano: ");
